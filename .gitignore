@@ -1,0 +1,20 @@
+# Python virtual environment & bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets (giữ lại .env.example nếu có)
+.env
+.env.*
+!.env.example
+
+# Local downloaded heavy OCR models (ngoại trừ models/wechat_qrcode đã kèm sẵn)
+models/paddleocr/
+models/easyocr/
+
+# Logs & OS artifacts
+*.log
+.DS_Store
+Thumbs.db
